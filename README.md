@@ -1,13 +1,4 @@
-# wp-linkify
-
-## Plugin Name 
-Contributors: CapnHammered
-Tags: links, thumbnails
-Requires at least: 3.0.1
-Tested up to: 4.5.3
-Stable tag: 1.0
-License: GPLv2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# Linkify
 
 Creates links to internal/external pages in a similar way to Facebook.  Stores key information from a webpage to an attachment.
 
@@ -17,7 +8,7 @@ Creates attractive links to internal/external pages in a similar way to Facebook
 
 Example usage:
  - Paste a URL on its own line in the editor.  Linkify will do all the work!
- - Shortcode syntax: `[linkify title='Your Title Here' description='Full description of link goes here.']http://example.com[/linkify]`
+ - Shortcode syntax: `[linkify title='Title' description='Full description.']http://example.com[/linkify]`
  
 Technical specs:
  - Automatically linkifies links which are on their own paragraph, whether the editor automatically encased it in a link or not.
